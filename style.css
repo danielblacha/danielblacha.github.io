@@ -17,6 +17,13 @@ img {
   border-radius: 5%;
 }
 
+.badge {
+  background-image: url('oca-badge.png');
+  width: 125px;
+  height: 125px;
+  margin: auto;
+}
+
 hr {
   width: 90%;
   border:1px solid #080e4c;
@@ -78,7 +85,7 @@ mark {
 
   .back-color {
     background-color: transparent;
-    
+
   }
 
   .col-sm-9 {
