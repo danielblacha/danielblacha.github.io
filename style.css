@@ -21,7 +21,7 @@ img {
   background-image: url('oca-badge.png');
   width: 125px;
   height: 125px;
-  margin: auto;
+  margin-left: 50%;
 }
 
 hr {
@@ -60,13 +60,18 @@ mark {
 }
 
 .foot {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 @media print {
+
+  #page {
+	width: 100%;
+	margin: 0; padding: 0;
+	background: none;
+}
+
   body{
-    margin-top: -10px;
-    padding-top: -10px;
     background-color: transparent;
   }
 
@@ -87,6 +92,12 @@ mark {
     background-color: transparent;
 
   }
+
+  .badge {
+    border: none;
+    margin-left: 45%;
+  }
+
 
   .col-sm-9 {
        width: 75%;
