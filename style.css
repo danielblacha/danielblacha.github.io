@@ -17,13 +17,6 @@ img {
   border-radius: 5%;
 }
 
-.badge {
-  background-image: url('oca-badge.png');
-  width: 125px;
-  height: 125px;
-  margin-left: 50%;
-}
-
 hr {
   width: 90%;
   border:1px solid #080e4c;
@@ -65,7 +58,8 @@ mark {
 
 @media print {
   body{
-    background-color: transparent;
+    background-color: rgba(216, 217, 218, 0.85) !important;
+     -webkit-print-color-adjust: exact;
   }
 
   h4::first-letter {
@@ -79,16 +73,6 @@ mark {
   .line-long {
     border-left: 1px solid #080e4c;
     margin:0;
-  }
-
-  .back-color {
-    background-color: transparent;
-
-  }
-
-  .badge {
-    border: none;
-    margin-left: 45%;
   }
 
 
